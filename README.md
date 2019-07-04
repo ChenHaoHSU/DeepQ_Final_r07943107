@@ -104,4 +104,3 @@ Prediction is saved to `prediction_path` in run-length encoding (RLE) format.
 
 1. 3rd place solution in RSNA Pneumonia Detection Challenge. [Github](https://github.com/pmcheng/rsna-pneumonia)
 2. T.-Y. Lin, P. Goyal, R. Girshick, K. He, and P. Dollar, "Focal loss for dense object detection," In ECCV, 2017.
-3. [Keras-retinanet](https://github.com/fizyr/keras-retinane)
