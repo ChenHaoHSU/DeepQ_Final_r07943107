@@ -70,6 +70,8 @@ bash ./train_152.sh
 
 Snapshots after each epoch of training are saved in `snapshots/`.
 
+Note: we used Resnet-50 as backbone in our best model on [kaggle](https://www.kaggle.com/c/ml2019spring-final-deepq/overview).
+
 ## Prediction
 
 Move the inference models to `models/` and modify "MODELS" in `settings.json`. Then, run the following command. 
@@ -97,3 +99,9 @@ Example:
 	bash ./reproduce.sh prediction.csv
 
 Prediction is saved to `prediction_path` in run-length encoding (RLE) format.
+
+## References
+
+1. 3rd place solution in RSNA Pneumonia Detection Challenge. [Github](https://www.kaggle.com/c/rsnapneumonia-detection-challenge/discussion/70632#latest-440310)
+2. T.-Y. Lin, P. Goyal, R. Girshick, K. He, and P. Dollar, "Focal loss for dense object detection," In ECCV, 2017.
+3. [Keras-retinanet](https://github.com/fizyr/keras-retinane)
